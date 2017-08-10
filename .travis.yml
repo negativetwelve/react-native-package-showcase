@@ -24,7 +24,7 @@ matrix:
           - extra-google-m2repository
           - addon-google_apis-google-16
       script:
-        - bin/run-android.sh
+        - bin/setup-android.sh
     - language: objective-c
       os: osx
       osx_image: xcode8.3
@@ -35,4 +35,4 @@ matrix:
         directories:
           - node_modules
       script:
-        - bin/run-ios.sh
+        - bin/setup-ios.sh
