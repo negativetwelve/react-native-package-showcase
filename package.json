@@ -59,7 +59,7 @@
   },
   "scripts": {
     "coverage": "nyc jest --coverage",
-    "coveralls": "yarn coverage && nyc report --reporter=text-lcov | coveralls",
+    "coveralls": "yarn coverage && cat ./coverage/lcov.info | coveralls",
     "lint": "eslint js",
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
