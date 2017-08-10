@@ -31,19 +31,34 @@
   },
   "homepage": "https://github.com/negativetwelve/react-native-packages",
   "engines": {},
-  "dependencies": {},
+  "dependencies": {
+    "react": "16.0.0-alpha.12",
+    "react-native": "0.47.1"
+  },
   "devDependencies": {
+    "babel-jest": "^20.0.3",
+    "babel-preset-react-native": "^2.1.0",
     "eslint-config-jolt": "^1.0.2",
-    "jest-preset-jolt": "^1.0.1"
+    "jest-preset-jolt": "^1.0.1",
+    "react-test-renderer": "16.0.0-alpha.12"
+  },
+  "babel": {
+    "presets": [
+      "react-native"
+    ]
   },
   "eslintConfig": {
     "extends": "jolt"
   },
   "jest": {
-    "preset": "jest-preset-jolt"
+    "preset": "jest-preset-jolt",
+    "setupFiles": [
+      "<rootDir>/node_modules/react-native/jest/setup.js"
+    ]
   },
   "scripts": {
     "lint": "eslint js",
+    "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
   }
 }
