@@ -1,6 +1,6 @@
 {
   "name": "react-native-packages",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "React Native example app with many packages.",
   "main": "./js/index",
   "files": [
