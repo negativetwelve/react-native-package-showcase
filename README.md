@@ -1,9 +1,9 @@
-# react-native-packages
+# react-native-package-showcase
 
-[![npm](https://img.shields.io/npm/v/react-native-packages.svg)](https://www.npmjs.com/package/react-native-packages)
-[![npm](https://img.shields.io/npm/dt/react-native-packages.svg)](https://www.npmjs.com/package/react-native-packages)
-[![npm](https://img.shields.io/npm/l/react-native-packages.svg)](https://github.com/negativetwelve/react-native-packages/blob/master/LICENSE)
-[![CircleCI branch](https://img.shields.io/circleci/project/github/negativetwelve/react-native-packages/master.svg)](https://circleci.com/gh/negativetwelve/react-native-packages)
+[![npm](https://img.shields.io/npm/v/react-native-package-showcase.svg)](https://www.npmjs.com/package/react-native-package-showcase)
+[![npm](https://img.shields.io/npm/dt/react-native-package-showcase.svg)](https://www.npmjs.com/package/react-native-package-showcase)
+[![npm](https://img.shields.io/npm/l/react-native-package-showcase.svg)](https://github.com/negativetwelve/react-native-package-showcase/blob/master/LICENSE)
+[![CircleCI branch](https://img.shields.io/circleci/project/github/negativetwelve/react-native-package-showcase/master.svg)](https://circleci.com/gh/negativetwelve/react-native-package-showcase)
 
 RNPackages is an application that contains many, many packages from the community. The purpose of this app is to show how a particular module is added to an app, to test `react-native link` commands, and to make sure packages are kept up-to-date.
 
