@@ -40,8 +40,10 @@
   "devDependencies": {
     "babel-jest": "^20.0.3",
     "babel-preset-react-native": "^2.1.0",
+    "coveralls": "^2.13.1",
     "eslint-config-jolt": "^1.0.2",
     "jest-preset-jolt": "^1.0.1",
+    "nyc": "^11.1.0",
     "react-test-renderer": "16.0.0-alpha.12"
   },
   "babel": {
@@ -56,6 +58,8 @@
     "preset": "react-native"
   },
   "scripts": {
+    "coverage": "nyc jest --coverage",
+    "coveralls": "yarn coverage && cat ./coverage/lcov.info | coveralls",
     "lint": "eslint js",
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
