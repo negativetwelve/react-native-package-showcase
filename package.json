@@ -2,7 +2,7 @@
   "name": "react-native-packages",
   "version": "0.1.0",
   "description": "React Native example app with many packages.",
-  "main": "./js/index.js",
+  "main": "./js/index",
   "files": [
     "android",
     "ios",
