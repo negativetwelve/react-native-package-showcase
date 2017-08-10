@@ -10,7 +10,7 @@ const styles = StyleSheet.create({
 
 export default class UXCamView extends React.Component {
   componentDidMount() {
-    UXCam.startWithKey('<YOUR KEY HERE>');
+    // UXCam.startWithKey('<YOUR KEY HERE>');
   }
 
   render() {
