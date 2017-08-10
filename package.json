@@ -51,10 +51,7 @@
     "extends": "jolt"
   },
   "jest": {
-    "preset": "jest-preset-jolt",
-    "setupFiles": [
-      "<rootDir>/node_modules/react-native/jest/setup.js"
-    ]
+    "preset": "react-native"
   },
   "scripts": {
     "lint": "eslint js",
