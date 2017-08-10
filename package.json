@@ -1,0 +1,49 @@
+{
+  "name": "react-native-packages",
+  "version": "0.1.0",
+  "description": "React Native example app with many packages.",
+  "main": "./js/index.js",
+  "files": [
+    "android",
+    "ios",
+    "js"
+  ],
+  "keywords": [
+    "android",
+    "ios",
+    "jolt",
+    "react-native"
+  ],
+  "author": "Mark Miyashita <negativetwelve@gmail.com> (https://github.com/negativetwelve)",
+  "contributors": [
+    {
+      "name": "Mark Miyashita",
+      "email": "negativetwelve@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "repository": {
+    "url": "git+https://github.com/negativetwelve/react-native-packages.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/negativetwelve/react-native-packages/issues"
+  },
+  "homepage": "https://github.com/negativetwelve/react-native-packages",
+  "engines": {},
+  "dependencies": {},
+  "devDependencies": {
+    "eslint-config-jolt": "^1.0.2",
+    "jest-preset-jolt": "^1.0.1"
+  },
+  "eslintConfig": {
+    "extends": "jolt"
+  },
+  "jest": {
+    "preset": "jest-preset-jolt"
+  },
+  "scripts": {
+    "lint": "eslint js",
+    "test": "jest"
+  }
+}
