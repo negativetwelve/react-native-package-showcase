@@ -4,13 +4,17 @@
  * @flow
  */
 
-import React, { Component } from 'react';
+// Libraries
+import React from 'react';
 import {
   AppRegistry,
   StyleSheet,
   Text,
   View,
 } from 'react-native';
+
+// Components
+import PackagesView from './components/PackagesView';
 
 
 const styles = StyleSheet.create({
@@ -33,7 +37,7 @@ const styles = StyleSheet.create({
 });
 
 
-export default class RNPackages extends Component {
+export default class RNPackages extends React.Component {
   render() {
     return (
       <View style={styles.container}>
@@ -47,6 +51,7 @@ export default class RNPackages extends Component {
           Double tap R on your keyboard to reload,{'\n'}
           Shake or press menu button for dev menu
         </Text>
+        <PackagesView />
       </View>
     );
   }
