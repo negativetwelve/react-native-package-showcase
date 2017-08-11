@@ -4598,6 +4598,10 @@ react-devtools-core@2.3.1:
     shell-quote "^1.6.1"
     ws "^2.0.3"
 
+react-native-heap-analytics@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/react-native-heap-analytics/-/react-native-heap-analytics-1.3.0.tgz#4082980701b30010d6533940f963605d51f1de89"
+
 react-native-ux-cam@^3.4.0:
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/react-native-ux-cam/-/react-native-ux-cam-3.4.0.tgz#f47551e6007b17e3acca04796bb8d668e7e48b6f"
