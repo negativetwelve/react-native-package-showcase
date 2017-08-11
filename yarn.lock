@@ -4612,6 +4612,10 @@ react-devtools-core@2.3.1:
     shell-quote "^1.6.1"
     ws "^2.0.3"
 
+react-native-heap-analytics@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/react-native-heap-analytics/-/react-native-heap-analytics-1.3.0.tgz#4082980701b30010d6533940f963605d51f1de89"
+
 react-native-svg@^5.4.1:
   version "5.4.1"
   resolved "https://registry.yarnpkg.com/react-native-svg/-/react-native-svg-5.4.1.tgz#c46191c786adbe9d5007342b4279efd153db8839"
