@@ -1,5 +1,7 @@
 # react-native-package-showcase
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/negativetwelve/react-native-package-showcase.svg)](https://greenkeeper.io/)
+
 [![npm](https://img.shields.io/npm/v/react-native-package-showcase.svg)](https://www.npmjs.com/package/react-native-package-showcase)
 [![npm](https://img.shields.io/npm/dt/react-native-package-showcase.svg)](https://www.npmjs.com/package/react-native-package-showcase)
 [![npm](https://img.shields.io/npm/l/react-native-package-showcase.svg)](https://github.com/negativetwelve/react-native-package-showcase/blob/master/LICENSE)
