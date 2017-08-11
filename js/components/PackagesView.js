@@ -4,6 +4,7 @@ import {StyleSheet, View} from 'react-native';
 
 // Packages
 import HeapAnalyticsExample from '../examples/HeapAnalyticsExample';
+import IntercomExample from '../examples/IntercomExample';
 import ShakeEventExample from '../examples/ShakeEventExample';
 import SVGExample from '../examples/SVGExample';
 import UXCamExample from '../examples/UXCamExample';
@@ -20,6 +21,7 @@ const styles = StyleSheet.create({
 export default () => (
   <View style={styles.container}>
     <HeapAnalyticsExample />
+    <IntercomExample />
     <ShakeEventExample />
     <SVGExample />
     <UXCamExample />
