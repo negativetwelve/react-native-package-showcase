@@ -4598,6 +4598,12 @@ react-devtools-core@2.3.1:
     shell-quote "^1.6.1"
     ws "^2.0.3"
 
+react-native-shake-event@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/react-native-shake-event/-/react-native-shake-event-4.0.1.tgz#b167e844b711eff50d44d029537fbb228b2ac6b2"
+  dependencies:
+    invariant "^2.2.2"
+
 react-native-ux-cam@^3.4.0:
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/react-native-ux-cam/-/react-native-ux-cam-3.4.0.tgz#f47551e6007b17e3acca04796bb8d668e7e48b6f"
