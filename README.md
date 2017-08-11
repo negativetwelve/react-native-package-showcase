@@ -15,5 +15,6 @@ It also serves as a catalog for all react-native pacakges in the community.
 
 ## Packages
 
+* [react-native-heap-analytics](https://github.com/negativetwelve/react-native-heap-analytics)
 * [react-native-ux-cam](https://github.com/negativetwelve/react-native-ux-cam)
 * [react-native-video](https://github.com/react-native-community/react-native-video)
