@@ -4,12 +4,14 @@ import ShakeEvent from 'react-native-shake-event';
 
 
 export default class ShakeEventExample extends React.Component {
-  componentDidMount() {
-    // TODO
+  componentWillMount() {
+    ShakeEvent.addEventListener('shake', () => {
+      console.log('Device shake!');
+    });
   }
 
   componentWillUnmount() {
-    // TODO
+    ShakeEvent.removeEventListener('shake');
   }
 
   render() {
