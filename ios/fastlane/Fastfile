@@ -29,7 +29,9 @@ platform :ios do
       workspace: workspace,
       scheme: scheme,
       clean: true,
-      export_method: "ad-hoc",
+      silent: true,
+      configuration: "Debug",
+      export_method: "development",
     )
   end
 
