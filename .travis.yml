@@ -54,7 +54,7 @@ matrix:
         - yarn
         - cd ios
         - bundle install
-        - pod repo update
-        - pod install
+        - bundle exec pod repo update
+        - bundle exec pod install
       script:
         - bundle exec fastlane build
