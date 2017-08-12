@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="fastlane.lanes">
+    
+    
+    
+      
+      <testcase classname="fastlane.lanes" name="0: Verifying required fastlane version" time="0.001389">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="1: default_platform" time="0.000926">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="2: gradle" time="10.937378">
+        
+          <failure message="/Users/mark/.rvm/gems/ruby-2.3.0/gems/fastlane-2.47.0/fastlane/lib/fastlane/actions/actions_helper.rb:48:in `execute_action'&#10;/Users/mark/.rvm/gems/ruby-2.3.0/gems/fastlane-2.47.0/fastlane/lib/fastlane/runner.rb:230:in `block in execute_action'&#10;/Users/mark/.rvm/gems/ruby-2.3.0/gems/fastlane-2.47.0/fastlane/lib/fastlane/runner.rb:226:in `chdir'&#10;/Users/mark/.rvm/gems/ruby-2.3.0/gems/fastlane-2.47.0/fastlane/lib/fastlane/runner.rb:226:in `execute_action'&#10;/Users/mark/.rvm/gems/ruby-2.3.0/gems/fastlane-2.47.0/fastlane/lib/fastlane/runner.rb:148:in `trigger_action_by_name'&#10;/Users/mark/.rvm/gems/ruby-2.3.0/gems/fastlane-2.47.0/fastlane/lib/fastlane/fast_file.rb:146:in `method_missing'&#10;Fastfile:25:in `block (2 levels) in parsing_binding'&#10;/Users/mark/.rvm/gems/ruby-2.3.0/gems/fastlane-2.47.0/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/Users/mark/.rvm/gems/ruby-2.3.0/gems/fastlane-2.47.0/fastlane/lib/fastlane/runner.rb:49:in `block in execute'&#10;/Users/mark/.rvm/gems/ruby-2.3.0/gems/fastlane-2.47.0/fastlane/lib/fastlane/runner.rb:45:in `chdir'&#10;/Users/mark/.rvm/gems/ruby-2.3.0/gems/fastlane-2.47.0/fastlane/lib/fastlane/runner.rb:45:in `execute'&#10;/Users/mark/.rvm/gems/ruby-2.3.0/gems/fastlane-2.47.0/fastlane/lib/fastlane/lane_manager.rb:52:in `cruise_lane'&#10;/Users/mark/.rvm/gems/ruby-2.3.0/gems/fastlane-2.47.0/fastlane/lib/fastlane/command_line_handler.rb:30:in `handle'&#10;/Users/mark/.rvm/gems/ruby-2.3.0/gems/fastlane-2.47.0/fastlane/lib/fastlane/commands_generator.rb:104:in `block (2 levels) in run'&#10;/Users/mark/.rvm/gems/ruby-2.3.0/gems/commander-fastlane-4.4.5/lib/commander/command.rb:178:in `call'&#10;/Users/mark/.rvm/gems/ruby-2.3.0/gems/commander-fastlane-4.4.5/lib/commander/command.rb:153:in `run'&#10;/Users/mark/.rvm/gems/ruby-2.3.0/gems/commander-fastlane-4.4.5/lib/commander/runner.rb:476:in `run_active_command'&#10;/Users/mark/.rvm/gems/ruby-2.3.0/gems/fastlane-2.47.0/fastlane_core/lib/fastlane_core/ui/fastlane_runner.rb:64:in `run!'&#10;/Users/mark/.rvm/gems/ruby-2.3.0/gems/commander-fastlane-4.4.5/lib/commander/delegates.rb:15:in `run!'&#10;/Users/mark/.rvm/gems/ruby-2.3.0/gems/fastlane-2.47.0/fastlane/lib/fastlane/commands_generator.rb:303:in `run'&#10;/Users/mark/.rvm/gems/ruby-2.3.0/gems/fastlane-2.47.0/fastlane/lib/fastlane/commands_generator.rb:42:in `start'&#10;/Users/mark/.rvm/gems/ruby-2.3.0/gems/fastlane-2.47.0/fastlane/lib/fastlane/cli_tools_distributor.rb:66:in `take_off'&#10;/Users/mark/.rvm/gems/ruby-2.3.0/gems/fastlane-2.47.0/bin/fastlane:20:in `&lt;top (required)&gt;'&#10;/Users/mark/.rvm/gems/ruby-2.3.0/bin/fastlane:22:in `load'&#10;/Users/mark/.rvm/gems/ruby-2.3.0/bin/fastlane:22:in `&lt;main&gt;'&#10;/Users/mark/.rvm/gems/ruby-2.3.0/bin/ruby_executable_hooks:15:in `eval'&#10;/Users/mark/.rvm/gems/ruby-2.3.0/bin/ruby_executable_hooks:15:in `&lt;main&gt;'&#10;&#10;Exit status of command '/Users/mark/projects/negativetwelve/react-native-package-showcase/android/gradlew test -p .' was 1 instead of 0.&#10;Incremental java compilation is an incubating feature.&#10;File /Users/mark/.android/repositories.cfg could not be loaded.&#10;&#10;FAILURE: Build failed with an exception.&#10;&#10;* What went wrong:&#10;A problem occurred configuring project ':app'.&#10;&gt; Could not resolve all dependencies for configuration ':app:_debugApkCopy'.&#10;   &gt; Could not find com.uxcam:uxcam:2.5.8.&#10;     Required by:&#10;         RNPackages:app:unspecified &gt; RNPackages:react-native-ux-cam:unspecified&#10;&#10;* Try:&#10;Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.&#10;&#10;BUILD FAILED&#10;&#10;Total time: 10.288 secs&#10;" />
+        
+      </testcase>
+    
+  </testsuite>
+</testsuites>
