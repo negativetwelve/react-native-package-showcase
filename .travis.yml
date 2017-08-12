@@ -13,6 +13,7 @@ matrix:
           - node_modules
           - $HOME/.gradle/caches/
           - $HOME/.gradle/wrapper/
+          - $HOME/.android/build-cache
       sudo: required
       before_install:
         - rvm install ruby-2.3.0
@@ -24,7 +25,8 @@ matrix:
         components:
           - tools
           - platform-tools
-          - build-tools-23
+          - tools
+          - build-tools-23.0.0
           - build-tools-23.0.1
           - build-tools-25.0.1
           - android-23
