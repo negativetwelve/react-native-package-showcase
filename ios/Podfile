@@ -1,0 +1,20 @@
+source "https://github.com/CocoaPods/Specs.git"
+platform :ios, "8.0"
+project(
+  "RNPackages",
+  "Development" => :debug,
+  "Staging" => :release,
+  "Production" => :release,
+)
+
+# Path to the root node_modules.
+node_modules = "../node_modules"
+react_native = "#{node_modules}/react-native"
+
+target "RNPackages" do
+  pod "react-native-heap-analytics",
+    path: "#{node_modules}/react-native-heap-analytics"
+  pod "react-native-intercom", path: "#{node_modules}/react-native-intercom"
+  pod "react-native-ux-cam", path: "#{node_modules}/react-native-ux-cam"
+  pod "react-native-video", path: "#{node_modules}/react-native-video"
+end

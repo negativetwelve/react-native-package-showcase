@@ -1,0 +1,46 @@
+PODS:
+  - Heap (4.0.0)
+  - Intercom (3.2.11)
+  - React (0.11.0):
+    - React/Core (= 0.11.0)
+  - react-native-heap-analytics (1.3.0):
+    - Heap (= 4.0.0)
+  - react-native-intercom (7.0.0):
+    - Intercom (> 3)
+  - react-native-ux-cam (3.4.0):
+    - React
+    - UXCam (~> 2.5.8)
+  - react-native-video (1.2.0):
+    - React
+  - React/Core (0.11.0)
+  - UXCam (2.5.11)
+
+DEPENDENCIES:
+  - react-native-heap-analytics (from `../node_modules/react-native-heap-analytics`)
+  - react-native-intercom (from `../node_modules/react-native-intercom`)
+  - react-native-ux-cam (from `../node_modules/react-native-ux-cam`)
+  - react-native-video (from `../node_modules/react-native-video`)
+
+EXTERNAL SOURCES:
+  react-native-heap-analytics:
+    :path: "../node_modules/react-native-heap-analytics"
+  react-native-intercom:
+    :path: "../node_modules/react-native-intercom"
+  react-native-ux-cam:
+    :path: "../node_modules/react-native-ux-cam"
+  react-native-video:
+    :path: "../node_modules/react-native-video"
+
+SPEC CHECKSUMS:
+  Heap: 9ef15407ea1893c3af40a13bb4f4a450ec8af142
+  Intercom: 9d00ee218448d93abfce2eafe95c854d7c1f94a3
+  React: ab1a2e21deb34965c38328d5ec40cc7d12c6050a
+  react-native-heap-analytics: 04602941eb63776dddebb99507296ed814086ea3
+  react-native-intercom: bb6bc4782b791b2a62ad33fda19a8b3394817ce4
+  react-native-ux-cam: a4954d67d56bc17c5fd827495b3c31331fd7fcc3
+  react-native-video: 9c89ee3a1c461be439c23bb5978d84e3a6e7320b
+  UXCam: 24fc9a228f2c749a7d56a97db205394af92e6a6b
+
+PODFILE CHECKSUM: de604fe879b8cb6a5dd8a4117b8051929730f0fb
+
+COCOAPODS: 1.2.1

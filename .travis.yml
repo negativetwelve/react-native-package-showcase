@@ -33,7 +33,6 @@ matrix:
       osx_image: xcode8.3
       cache:
         bundler: true
-        pip: true
         yarn: true
         directories:
           - node_modules
