@@ -12,8 +12,11 @@
 # This is the minimum version number required.
 # Update this, if you use features of a newer version
 fastlane_version "2.47.0"
-
 default_platform :ios
+
+# Variables
+workspace = "RNPackages.xcworkspace"
+scheme = "RNPackages"
 
 platform :ios do
   before_all do
@@ -22,7 +25,10 @@ platform :ios do
 
   desc "Runs all the tests"
   lane :test do
-    scan
+    scan(
+      workspace: workspace,
+      scheme: scheme,
+    )
   end
 
   desc "Submit a new Beta Build to Apple TestFlight"
