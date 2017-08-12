@@ -40,7 +40,7 @@
     "react-native-shake-event": "^4.0.1",
     "react-native-svg": "^5.4.1",
     "react-native-ux-cam": "^3.4.0",
-    "react-native-video": "^1.2.0"
+    "react-native-video": "react-native-community/react-native-video#4ca5956"
   },
   "devDependencies": {
     "babel-jest": "^20.0.3",
