@@ -41,6 +41,8 @@
 		D2F4A8B09CC64040AC39BD67 /* libRNShakeEvent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F01EE52D5314AD0BB2E06D9 /* libRNShakeEvent.a */; };
 		915FAC3A46E54800ADEE082B /* libRNSVG.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57FC3505C8CA45A7B135F342 /* libRNSVG.a */; };
 		88BFEC946D1449C39CD58139 /* libRNIntercom.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17136DA8514742B292E25DBF /* libRNIntercom.a */; };
+		DB804FB79FDF4BD2B70422A4 /* libCodePush.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E055C5EBA3B4B9289308F1B /* libCodePush.a */; };
+		52DEB46D021D474B9FCED01E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D6174AFB1F214157BF9D9299 /* libz.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -272,6 +274,9 @@
 		57FC3505C8CA45A7B135F342 /* libRNSVG.a */ = {isa = PBXFileReference; name = "libRNSVG.a"; path = "libRNSVG.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 		A55A080BE0D04CE59C4F2310 /* RNIntercom.xcodeproj */ = {isa = PBXFileReference; name = "RNIntercom.xcodeproj"; path = "../node_modules/react-native-intercom/iOS/RNIntercom.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
 		17136DA8514742B292E25DBF /* libRNIntercom.a */ = {isa = PBXFileReference; name = "libRNIntercom.a"; path = "libRNIntercom.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		B364E1ADEA81453BAAF49A70 /* CodePush.xcodeproj */ = {isa = PBXFileReference; name = "CodePush.xcodeproj"; path = "../node_modules/react-native-code-push/ios/CodePush.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		8E055C5EBA3B4B9289308F1B /* libCodePush.a */ = {isa = PBXFileReference; name = "libCodePush.a"; path = "libCodePush.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		D6174AFB1F214157BF9D9299 /* libz.tbd */ = {isa = PBXFileReference; name = "libz.tbd"; path = "usr/lib/libz.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -304,6 +309,8 @@
 				D2F4A8B09CC64040AC39BD67 /* libRNShakeEvent.a in Frameworks */,
 				915FAC3A46E54800ADEE082B /* libRNSVG.a in Frameworks */,
 				88BFEC946D1449C39CD58139 /* libRNIntercom.a in Frameworks */,
+				DB804FB79FDF4BD2B70422A4 /* libCodePush.a in Frameworks */,
+				52DEB46D021D474B9FCED01E /* libz.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,6 +483,7 @@
 				CF23E95EE0114317B7199B62 /* RNShakeEvent.xcodeproj */,
 				F6CD04D862284277B2A3C4FD /* RNSVG.xcodeproj */,
 				A55A080BE0D04CE59C4F2310 /* RNIntercom.xcodeproj */,
+				B364E1ADEA81453BAAF49A70 /* CodePush.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -496,6 +504,7 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* RNPackagesTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
+				9E68CBF23D1E4755AEA685ED /* Frameworks */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -511,6 +520,15 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		9E68CBF23D1E4755AEA685ED /* Frameworks */ = {
+			isa = "PBXGroup";
+			children = (
+				D6174AFB1F214157BF9D9299 /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -1007,6 +1025,7 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1016,6 +1035,7 @@
 					"$(SRCROOT)/../node_modules/react-native-shake-event/ios",
 					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-intercom/iOS",
+					"$(SRCROOT)/../node_modules/react-native-code-push/ios/CodePush/**",
 				);
 			};
 			name = Debug;
@@ -1040,6 +1060,7 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1049,6 +1070,7 @@
 					"$(SRCROOT)/../node_modules/react-native-shake-event/ios",
 					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-intercom/iOS",
+					"$(SRCROOT)/../node_modules/react-native-code-push/ios/CodePush/**",
 				);
 			};
 			name = Release;
@@ -1076,6 +1098,7 @@
 					"$(SRCROOT)/../node_modules/react-native-shake-event/ios",
 					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-intercom/iOS",
+					"$(SRCROOT)/../node_modules/react-native-code-push/ios/CodePush/**",
 				);
 			};
 			name = Debug;
@@ -1102,6 +1125,7 @@
 					"$(SRCROOT)/../node_modules/react-native-shake-event/ios",
 					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-intercom/iOS",
+					"$(SRCROOT)/../node_modules/react-native-code-push/ios/CodePush/**",
 				);
 			};
 			name = Release;
@@ -1135,6 +1159,7 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1144,6 +1169,7 @@
 					"$(SRCROOT)/../node_modules/react-native-shake-event/ios",
 					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-intercom/iOS",
+					"$(SRCROOT)/../node_modules/react-native-code-push/ios/CodePush/**",
 				);
 			};
 			name = Debug;
@@ -1177,6 +1203,7 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1186,6 +1213,7 @@
 					"$(SRCROOT)/../node_modules/react-native-shake-event/ios",
 					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-intercom/iOS",
+					"$(SRCROOT)/../node_modules/react-native-code-push/ios/CodePush/**",
 				);
 			};
 			name = Release;
@@ -1214,6 +1242,7 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 			};
 			name = Debug;
@@ -1238,6 +1267,7 @@
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
