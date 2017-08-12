@@ -3,8 +3,6 @@ matrix:
     - language: android
       os: linux
       jdk: oraclejdk8
-      rvm:
-        - 2.3.0
       before_cache:
         - rm -f $HOME/.gradle/caches/modules-2/modules-2.lock
         - rm -rf $HOME/.gradle/caches/*/plugin-resolution/
@@ -19,6 +17,7 @@ matrix:
       before_install:
         - cd android
         - nvm install 8
+        - rvm install ruby-2.3.0
         - bundle install
       android:
         components:
@@ -33,8 +32,6 @@ matrix:
     - language: objective-c
       os: osx
       osx_image: xcode8.3
-      rvm:
-        - 2.3.0
       cache:
         bundler: true
         yarn: true
@@ -42,6 +39,7 @@ matrix:
           - node_modules
       before_install:
         - cd ios
+        - rvm install ruby-2.3.0
         - bundle install
         - pod install
       script:
