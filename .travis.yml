@@ -7,6 +7,7 @@ matrix:
         - rm -f $HOME/.gradle/caches/modules-2/modules-2.lock
         - rm -rf $HOME/.gradle/caches/*/plugin-resolution/
       cache:
+        bundler: true
         yarn: true
         directories:
           - node_modules
@@ -15,6 +16,7 @@ matrix:
       sudo: required
       before_install:
         - nvm install 8
+        - bundle install
       android:
         components:
           - build-tools-23.0.1
@@ -34,5 +36,7 @@ matrix:
         yarn: true
         directories:
           - node_modules
+      before_install:
+        - bundle install
       script:
         - bin/setup-ios.sh

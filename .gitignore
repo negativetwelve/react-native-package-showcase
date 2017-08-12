@@ -40,3 +40,7 @@ npm-debug.log
 build
 coverage
 .nyc_output
+
+# Fastlane
+*/fastlane/report.xml
+*/fastlane/test_output
