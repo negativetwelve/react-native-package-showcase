@@ -3,6 +3,8 @@ matrix:
     - language: android
       os: linux
       jdk: oraclejdk8
+      rvm:
+        - 2.3.0
       before_cache:
         - rm -f $HOME/.gradle/caches/modules-2/modules-2.lock
         - rm -rf $HOME/.gradle/caches/*/plugin-resolution/
@@ -27,10 +29,12 @@ matrix:
           - extra-google-m2repository
           - addon-google_apis-google-16
       script:
-        - fastlane test
+        - fastlane build
     - language: objective-c
       os: osx
       osx_image: xcode8.3
+      rvm:
+        - 2.3.0
       cache:
         bundler: true
         yarn: true
@@ -41,4 +45,4 @@ matrix:
         - bundle install
         - pod install
       script:
-        - fastlane test
+        - fastlane build
