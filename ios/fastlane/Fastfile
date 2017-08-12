@@ -28,6 +28,7 @@ platform :ios do
     scan(
       workspace: workspace,
       scheme: scheme,
+      devices: ["iPhone 6s"],
     )
   end
 

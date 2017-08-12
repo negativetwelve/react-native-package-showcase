@@ -12,8 +12,7 @@ node_modules = "../node_modules"
 react_native = "#{node_modules}/react-native"
 
 target "RNPackages" do
-  pod "react-native-heap-analytics",
-    path: "#{node_modules}/react-native-heap-analytics"
+  pod "react-native-heap-analytics", path: "#{node_modules}/react-native-heap-analytics"
   pod "react-native-intercom", path: "#{node_modules}/react-native-intercom"
   pod "react-native-ux-cam", path: "#{node_modules}/react-native-ux-cam"
   pod "react-native-video", path: "#{node_modules}/react-native-video"
@@ -41,9 +40,7 @@ target "RNPackages" do
   ]
 
   # Third party pods that React Native depends on.
-  # Enable this when we have the CxxBridge working fully.
   ["DoubleConversion", "Folly", "GLog"].each do |podspec|
-    pod podspec,
-      podspec: "#{react_native}/third-party-podspecs/#{podspec}.podspec"
+    pod podspec, podspec: "#{react_native}/third-party-podspecs/#{podspec}.podspec"
   end
 end
