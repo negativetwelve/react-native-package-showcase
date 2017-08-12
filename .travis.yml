@@ -45,6 +45,7 @@ matrix:
         - cd ios
         - rvm install ruby-2.3.0
         - bundle install
+        - pod repo update
         - pod install
       script:
         - fastlane build
