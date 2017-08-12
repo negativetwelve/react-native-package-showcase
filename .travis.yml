@@ -15,6 +15,7 @@ matrix:
           - $HOME/.gradle/wrapper/
       sudo: required
       before_install:
+        - cd android
         - nvm install 8
         - bundle install
       android:
@@ -26,7 +27,7 @@ matrix:
           - extra-google-m2repository
           - addon-google_apis-google-16
       script:
-        - cd android && fastlane test
+        - fastlane test
     - language: objective-c
       os: osx
       osx_image: xcode8.3
@@ -37,6 +38,8 @@ matrix:
         directories:
           - node_modules
       before_install:
+        - cd ios
         - bundle install
+        - pod install
       script:
-        - cd ios && fastlane test
+        - fastlane test
