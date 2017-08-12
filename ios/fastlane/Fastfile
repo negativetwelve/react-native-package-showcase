@@ -30,8 +30,7 @@ platform :ios do
       scheme: scheme,
       clean: true,
       silent: true,
-      configuration: "Debug",
-      export_method: "development",
+      export_method: "ad-hoc",
     )
   end
 
