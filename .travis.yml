@@ -26,7 +26,7 @@ matrix:
           - extra-google-m2repository
           - addon-google_apis-google-16
       script:
-        - bin/setup-android.sh
+        - cd android && fastlane test
     - language: objective-c
       os: osx
       osx_image: xcode8.3
@@ -39,4 +39,4 @@ matrix:
       before_install:
         - bundle install
       script:
-        - bin/setup-ios.sh
+        - cd ios && fastlane test
