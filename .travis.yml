@@ -35,9 +35,11 @@ matrix:
       osx_image: xcode8.3
       cache:
         bundler: true
+        cocoapods: true
         yarn: true
         directories:
           - node_modules
+          - $HOME/Library/Caches/Homebrew
       before_install:
         - nvm install 8
         - brew install yarn --ignore-dependencies
