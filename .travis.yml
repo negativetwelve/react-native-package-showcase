@@ -15,15 +15,16 @@ matrix:
           - $HOME/.gradle/wrapper/
       sudo: required
       before_install:
+        - rvm install ruby-2.3.0
         - nvm install 8
         - yarn
         - cd android
-        - rvm install ruby-2.3.0
         - bundle install
       android:
         components:
-          - build-tools-23.0.1
-          - android-23
+          - tools
+          - platform-tools
+          - tools
           - build-tools-25.0.1
           - android-25
           - extra-android-m2repository
@@ -43,11 +44,11 @@ matrix:
           - node_modules
           - $HOME/Library/Caches/Homebrew
       before_install:
+        - rvm install ruby-2.3.0
         - nvm install 8
         - brew install yarn --ignore-dependencies
         - yarn
         - cd ios
-        - rvm install ruby-2.3.0
         - bundle install
         - pod repo update
         - pod install
