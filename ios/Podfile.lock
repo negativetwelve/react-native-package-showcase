@@ -31,7 +31,7 @@ PODS:
   - react-native-ux-cam (3.4.0):
     - React
     - UXCam (~> 2.5.8)
-  - react-native-video (1.2.0):
+  - react-native-video (1.1.0):
     - React
   - React/ART (0.47.1):
     - React/Core
@@ -136,10 +136,10 @@ SPEC CHECKSUMS:
   react-native-heap-analytics: 04602941eb63776dddebb99507296ed814086ea3
   react-native-intercom: bb6bc4782b791b2a62ad33fda19a8b3394817ce4
   react-native-ux-cam: a4954d67d56bc17c5fd827495b3c31331fd7fcc3
-  react-native-video: 9c89ee3a1c461be439c23bb5978d84e3a6e7320b
+  react-native-video: 76a8ce72b4f93932eb9edb039b703d0ef71661f7
   UXCam: 24fc9a228f2c749a7d56a97db205394af92e6a6b
   Yoga: 13a12502dfabb4c75b914071dcb542af800deed4
 
-PODFILE CHECKSUM: db2b07048632e571014fa437a76a76dda5d61694
+PODFILE CHECKSUM: 9768def62b5dcd48922e0eeae656bd9a4fee788e
 
 COCOAPODS: 1.2.1
