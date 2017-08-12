@@ -13,31 +13,36 @@
 # Update this, if you use features of a newer version
 fastlane_version "2.47.0"
 
-default_platform :android
+default_platform :ios
 
-platform :android do
+platform :ios do
   before_all do
     # ENV["SLACK_URL"] = "https://hooks.slack.com/services/..."
   end
 
   desc "Runs all the tests"
   lane :test do
-    gradle(task: "test")
+    scan
   end
 
-  desc "Submit a new Beta Build to Crashlytics Beta"
+  desc "Submit a new Beta Build to Apple TestFlight"
+  desc "This will also make sure the profile is up to date"
   lane :beta do
-    gradle(task: "assembleRelease")
-    crashlytics
+    # match(type: "appstore") # more information: https://codesigning.guide
+    gym # Build your app - more options available
+    pilot
 
     # sh "your_script.sh"
-    # You can also use other beta testing services here
+    # You can also use other beta testing services here (run `fastlane actions`)
   end
 
-  desc "Deploy a new version to the Google Play"
-  lane :deploy do
-    gradle(task: "assembleRelease")
-    supply
+  desc "Deploy a new version to the App Store"
+  lane :release do
+    # match(type: "appstore")
+    # snapshot
+    gym # Build your app - more options available
+    deliver(force: true)
+    # frameit
   end
 
   # You can define as many lanes as you want
