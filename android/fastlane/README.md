@@ -30,6 +30,11 @@ xcode-select --install
 
 # Available Actions
 ## Android
+### android build
+```
+fastlane android build
+```
+Builds the app
 ### android test
 ```
 fastlane android test
