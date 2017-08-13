@@ -4,6 +4,7 @@ import {StyleSheet, View} from 'react-native';
 
 // Packages
 import CodePushExample from '../examples/CodePushExample';
+import DeviceInfoExample from '../examples/DeviceInfoExample';
 import HeapAnalyticsExample from '../examples/HeapAnalyticsExample';
 import IntercomExample from '../examples/IntercomExample';
 import LottieExample from '../examples/LottieExample';
@@ -23,6 +24,7 @@ const styles = StyleSheet.create({
 export default () => (
   <View style={styles.container}>
     <CodePushExample />
+    <DeviceInfoExample />
     <HeapAnalyticsExample />
     <IntercomExample />
     <LottieExample />
