@@ -3,6 +3,13 @@ package com.rnshowcase;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.brentvatne.react.ReactVideoPackage;
+import com.rnuxcam.rnuxcam.UXCamPackage;
+import com.horcrux.svg.SvgPackage;
+import com.jadsonlourenco.RNShakeEvent.RNShakeEventPackage;
+import com.robinpowered.react.Intercom.IntercomPackage;
+import com.microsoft.codepush.react.CodePush;
+import com.airbnb.android.react.lottie.LottiePackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
@@ -28,7 +35,14 @@ public class MainApplication extends Application implements ReactApplication {
     @Override
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
-          new MainReactPackage()
+          new MainReactPackage(),
+          new ReactVideoPackage(),
+          new UXCamPackage(),
+          new SvgPackage(),
+          new RNShakeEventPackage(),
+          new IntercomPackage(),
+          new CodePush(null, getApplicationContext(), BuildConfig.DEBUG),
+          new LottiePackage()
       );
     }
   };
