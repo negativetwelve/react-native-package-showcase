@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -41,6 +40,7 @@
 		93488BD671C047C1A2D165A5 /* libRNSVG.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D9E313944C4713A74BF7C6 /* libRNSVG.a */; };
 		BC3050F9B7154CDBBF191861 /* libCodePush.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1119529D79146D493E0DB7A /* libCodePush.a */; };
 		C5B0955117BF4B3A8F7493C2 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F35C5F30EB8437A8DCBA84E /* libz.tbd */; };
+		4B2C523D6EEA463CA5D10090 /* libRNDeviceInfo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9FA9A29E9274C1B94B6EFE3 /* libRNDeviceInfo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -333,6 +333,8 @@
 		EC14F4041AC0E347DF09D2E5 /* Pods-RNShowcase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNShowcase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNShowcase/Pods-RNShowcase.debug.xcconfig"; sourceTree = "<group>"; };
 		F46ABA1672FE42D7BAE36A82 /* RNSVG.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNSVG.xcodeproj; path = "../node_modules/react-native-svg/ios/RNSVG.xcodeproj"; sourceTree = "<group>"; };
 		F5F749588195924D520E7A35 /* Pods-RNShowcase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNShowcase.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNShowcase/Pods-RNShowcase.release.xcconfig"; sourceTree = "<group>"; };
+		10DC10D142644223850B754C /* RNDeviceInfo.xcodeproj */ = {isa = PBXFileReference; name = "RNDeviceInfo.xcodeproj"; path = "../node_modules/react-native-device-info/RNDeviceInfo.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		C9FA9A29E9274C1B94B6EFE3 /* libRNDeviceInfo.a */ = {isa = PBXFileReference; name = "libRNDeviceInfo.a"; path = "libRNDeviceInfo.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -364,6 +366,7 @@
 				C5B0955117BF4B3A8F7493C2 /* libz.tbd in Frameworks */,
 				70EF8CE003F24FBCA02BDDEC /* libRNShakeEvent.a in Frameworks */,
 				93488BD671C047C1A2D165A5 /* libRNSVG.a in Frameworks */,
+				4B2C523D6EEA463CA5D10090 /* libRNDeviceInfo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -581,6 +584,7 @@
 				D18E0C73C60447D09122B92D /* CodePush.xcodeproj */,
 				1B4E65B97B3A453A9A386262 /* RNShakeEvent.xcodeproj */,
 				F46ABA1672FE42D7BAE36A82 /* RNSVG.xcodeproj */,
+				10DC10D142644223850B754C /* RNDeviceInfo.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -703,7 +707,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 820;
 				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -1236,12 +1240,14 @@
 					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-ux-cam/ios",
 					"$(SRCROOT)/../node_modules/react-native-video/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-device-info/RNDeviceInfo",
 				);
 				INFOPLIST_FILE = RNShowcaseTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1276,12 +1282,14 @@
 					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-ux-cam/ios",
 					"$(SRCROOT)/../node_modules/react-native-video/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-device-info/RNDeviceInfo",
 				);
 				INFOPLIST_FILE = RNShowcaseTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1320,6 +1328,7 @@
 					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-ux-cam/ios",
 					"$(SRCROOT)/../node_modules/react-native-video/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-device-info/RNDeviceInfo",
 				);
 				INFOPLIST_FILE = RNShowcase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1352,6 +1361,7 @@
 					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-ux-cam/ios",
 					"$(SRCROOT)/../node_modules/react-native-video/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-device-info/RNDeviceInfo",
 				);
 				INFOPLIST_FILE = RNShowcase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1389,11 +1399,13 @@
 					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-ux-cam/ios",
 					"$(SRCROOT)/../node_modules/react-native-video/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-device-info/RNDeviceInfo",
 				);
 				INFOPLIST_FILE = "RNShowcase-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1438,11 +1450,13 @@
 					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-ux-cam/ios",
 					"$(SRCROOT)/../node_modules/react-native-video/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-device-info/RNDeviceInfo",
 				);
 				INFOPLIST_FILE = "RNShowcase-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1487,6 +1501,7 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.RNShowcase-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1511,6 +1526,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
