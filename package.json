@@ -6,7 +6,8 @@
   "files": [
     "android",
     "ios",
-    "js"
+    "js",
+    "index.js"
   ],
   "keywords": [
     "android",

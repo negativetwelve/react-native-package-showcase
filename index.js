@@ -14,7 +14,7 @@ import {
 } from 'react-native';
 
 // Components
-import PackagesView from './components/PackagesView';
+import PackagesView from './js/components/PackagesView';
 
 
 const styles = StyleSheet.create({
@@ -45,7 +45,7 @@ export default class RNShowcase extends React.Component {
           Welcome to React Native!
         </Text>
         <Text style={styles.instructions}>
-          To get started, edit index.ios.js
+          To get started, edit index.js
         </Text>
         <Text style={styles.instructions}>
           Press Cmd+R to reload,{'\n'}
