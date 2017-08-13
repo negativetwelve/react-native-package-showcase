@@ -1,4 +1,4 @@
-package com.rnshowcase;
+package com.markmiyashita.RNShowcase;
 
 import android.app.Application;
 
