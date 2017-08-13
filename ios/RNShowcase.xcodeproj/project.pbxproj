@@ -1306,6 +1306,7 @@
 			baseConfigurationReference = EC14F4041AC0E347DF09D2E5 /* Pods-RNShowcase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = XML9YS75M2;
@@ -1338,6 +1339,7 @@
 			baseConfigurationReference = F5F749588195924D520E7A35 /* Pods-RNShowcase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XML9YS75M2;
 				HEADER_SEARCH_PATHS = (
