@@ -7,32 +7,51 @@ matrix:
         - rm -f $HOME/.gradle/caches/modules-2/modules-2.lock
         - rm -rf $HOME/.gradle/caches/*/plugin-resolution/
       cache:
+        bundler: true
         yarn: true
         directories:
           - node_modules
           - $HOME/.gradle/caches/
           - $HOME/.gradle/wrapper/
-      sudo: required
-      before_install:
-        - nvm install 8
+          - $HOME/.android/build-cache
       android:
         components:
+          - build-tools-23.0.0
           - build-tools-23.0.1
+          - build-tools-25.0.1
           - android-23
+          - android-25
           - extra-android-m2repository
           - extra-google-google_play_services
           - extra-google-m2repository
           - addon-google_apis-google-16
+      sudo: required
+      before_install:
+        - rvm install ruby-2.3.0
+        - nvm install 8
+      install:
+        - yarn
+        - cd android
+        - bundle install
       script:
-        - bin/setup-android.sh
+        - bundle exec fastlane test
     - language: objective-c
       os: osx
       osx_image: xcode8.3
       cache:
         bundler: true
-        pip: true
+        cocoapods: true
         yarn: true
         directories:
           - node_modules
+          - $HOME/Library/Caches/Homebrew
+      before_install:
+        - rvm install ruby-2.3.0
+        - nvm install 8
+        - brew install yarn --ignore-dependencies
+      install:
+        - yarn
+        - cd ios
+        - bundle install
       script:
-        - bin/setup-ios.sh
+        - bundle exec fastlane test

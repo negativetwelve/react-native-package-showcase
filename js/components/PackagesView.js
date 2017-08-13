@@ -6,6 +6,7 @@ import {StyleSheet, View} from 'react-native';
 import CodePushExample from '../examples/CodePushExample';
 import HeapAnalyticsExample from '../examples/HeapAnalyticsExample';
 import IntercomExample from '../examples/IntercomExample';
+import LottieExample from '../examples/LottieExample';
 import ShakeEventExample from '../examples/ShakeEventExample';
 import SVGExample from '../examples/SVGExample';
 import UXCamExample from '../examples/UXCamExample';
@@ -24,6 +25,7 @@ export default () => (
     <CodePushExample />
     <HeapAnalyticsExample />
     <IntercomExample />
+    <LottieExample />
     <ShakeEventExample />
     <SVGExample />
     <UXCamExample />

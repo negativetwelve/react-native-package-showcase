@@ -9,12 +9,13 @@
 [![dependencies Status](https://david-dm.org/negativetwelve/react-native-package-showcase/master/status.svg)](https://david-dm.org/negativetwelve/react-native-package-showcase/master)
 [![devDependency Status](https://david-dm.org/negativetwelve/react-native-package-showcase/master/dev-status.svg)](https://david-dm.org/negativetwelve/react-native-package-showcase/master#info=devDependencies)
 
-RNPackages is an application that contains many, many packages from the community. The purpose of this app is to show how a particular module is added to an app, to test `react-native link` commands, and to make sure packages are kept up-to-date.
+RNShowcase is an application that contains many, many packages from the community. The purpose of this app is to show how a particular module is added to an app, to test `react-native link` commands, and to make sure packages are kept up-to-date.
 
 It also serves as a catalog for all react-native pacakges in the community.
 
 ## Packages
 
+* [lottie-react-native](https://github.com/airbnb/lottie-react-native)
 * [react-native-code-push](https://github.com/Microsoft/react-native-code-push)
 * [react-native-heap-analytics](https://github.com/negativetwelve/react-native-heap-analytics)
 * [react-native-intercom](https://github.com/tinycreative/react-native-intercom)

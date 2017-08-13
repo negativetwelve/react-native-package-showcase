@@ -1,0 +1,15 @@
+source "https://github.com/CocoaPods/Specs.git"
+platform :ios, "8.0"
+
+target "RNShowcase" do
+  pod "React", path: "../node_modules/react-native", subspecs: ["BatchedBridge", "Core"]
+  pod "Yoga", path: "../node_modules/react-native/ReactCommon/yoga"
+
+  # Packages
+  pod "lottie-ios", path: "../node_modules/lottie-ios"
+  pod "lottie-react-native", path: "../node_modules/lottie-react-native"
+  pod "react-native-heap-analytics", path: "../node_modules/react-native-heap-analytics"
+  pod "react-native-intercom", path: "../node_modules/react-native-intercom"
+  pod "react-native-ux-cam", path: "../node_modules/react-native-ux-cam"
+  pod "react-native-video", path: "../node_modules/react-native-video"
+end
