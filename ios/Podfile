@@ -1,46 +1,12 @@
 source "https://github.com/CocoaPods/Specs.git"
 platform :ios, "8.0"
-project(
-  "RNPackages",
-  "Development" => :debug,
-  "Staging" => :release,
-  "Production" => :release,
-)
-
-# Path to the root node_modules.
-node_modules = "../node_modules"
-react_native = "#{node_modules}/react-native"
 
 target "RNPackages" do
-  pod "react-native-heap-analytics", path: "#{node_modules}/react-native-heap-analytics"
-  pod "react-native-intercom", path: "#{node_modules}/react-native-intercom"
-  pod "react-native-ux-cam", path: "#{node_modules}/react-native-ux-cam"
-  pod "react-native-video", path: "#{node_modules}/react-native-video"
+  pod "React", path: "../node_modules/react-native", subspecs: ["BatchedBridge", "Core"]
+  pod "Yoga", path: "../node_modules/react-native/ReactCommon/yoga"
 
-  # Installs React using Cocoapods, this shouldn't be necessary but some
-  # packages depend on React so this forces the correct version.
-  pod "Yoga", path: "#{react_native}/ReactCommon/yoga"
-  pod "React", path: react_native, subspecs: [
-    "ART",
-    "Core",
-    "CxxBridge",
-    "DevSupport",
-    "RCTActionSheet",
-    "RCTAnimation",
-    "RCTCameraRoll",
-    "RCTGeolocation",
-    "RCTImage",
-    "RCTLinkingIOS",
-    "RCTNetwork",
-    "RCTPushNotification",
-    "RCTSettings",
-    "RCTText",
-    "RCTVibration",
-    "RCTWebSocket",
-  ]
-
-  # Third party pods that React Native depends on.
-  ["DoubleConversion", "Folly", "GLog"].each do |podspec|
-    pod podspec, podspec: "#{react_native}/third-party-podspecs/#{podspec}.podspec"
-  end
+  pod "react-native-heap-analytics", path: "../node_modules/react-native-heap-analytics"
+  pod "react-native-intercom", path: "../node_modules/react-native-intercom"
+  pod "react-native-ux-cam", path: "../node_modules/react-native-ux-cam"
+  pod "react-native-video", path: "../node_modules/react-native-video"
 end
