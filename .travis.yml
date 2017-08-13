@@ -29,6 +29,7 @@ matrix:
       before_install:
         - rvm install ruby-2.3.0
         - nvm install 8
+      install:
         - yarn
         - cd android
         - bundle install
@@ -48,6 +49,7 @@ matrix:
         - rvm install ruby-2.3.0
         - nvm install 8
         - brew install yarn --ignore-dependencies
+      install:
         - yarn
         - cd ios
         - bundle install
