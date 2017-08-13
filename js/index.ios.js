@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
 });
 
 
-export default class RNPackages extends React.Component {
+export default class RNShowcase extends React.Component {
   render() {
     return (
       <View style={styles.container}>
@@ -57,4 +57,4 @@ export default class RNPackages extends React.Component {
   }
 }
 
-AppRegistry.registerComponent('RNPackages', () => RNPackages);
+AppRegistry.registerComponent('RNShowcase', () => RNShowcase);

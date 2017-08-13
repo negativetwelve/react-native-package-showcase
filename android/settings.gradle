@@ -1,4 +1,4 @@
-rootProject.name = 'RNPackages'
+rootProject.name = 'RNShowcase'
 include ':react-native-video'
 project(':react-native-video').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-video/android')
 include ':react-native-ux-cam'
@@ -13,21 +13,5 @@ include ':react-native-code-push'
 project(':react-native-code-push').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-code-push/android/app')
 include ':lottie-react-native'
 project(':lottie-react-native').projectDir = new File(rootProject.projectDir, '../node_modules/lottie-react-native/lib/android')
-include ':react-native-ux-cam'
-project(':react-native-ux-cam').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-ux-cam/android')
-include ':lottie-react-native'
-project(':lottie-react-native').projectDir = new File(rootProject.projectDir, '../node_modules/lottie-react-native/lib/android')
-include ':react-native-code-push'
-project(':react-native-code-push').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-code-push/android/app')
-include ':react-native-intercom'
-project(':react-native-intercom').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-intercom/android')
-include ':react-native-shake-event'
-project(':react-native-shake-event').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-shake-event/android')
-include ':react-native-svg'
-project(':react-native-svg').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-svg/android')
-include ':react-native-video'
-project(':react-native-video').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-video/android')
-include ':react-native-ux-cam'
-project(':react-native-ux-cam').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-ux-cam/android')
 
 include ':app'
