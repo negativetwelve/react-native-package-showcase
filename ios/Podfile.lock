@@ -1,6 +1,10 @@
 PODS:
   - Heap (4.0.0)
   - Intercom (3.2.11)
+  - lottie-ios (1.5.2)
+  - lottie-react-native (1.2.0):
+    - lottie-ios
+    - React
   - React (0.47.1):
     - React/Core (= 0.47.1)
   - react-native-heap-analytics (1.3.0):
@@ -24,6 +28,8 @@ PODS:
   - Yoga (0.47.1.React)
 
 DEPENDENCIES:
+  - lottie-ios (from `../node_modules/lottie-ios`)
+  - lottie-react-native (from `../node_modules/lottie-react-native`)
   - react-native-heap-analytics (from `../node_modules/react-native-heap-analytics`)
   - react-native-intercom (from `../node_modules/react-native-intercom`)
   - react-native-ux-cam (from `../node_modules/react-native-ux-cam`)
@@ -33,6 +39,10 @@ DEPENDENCIES:
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 EXTERNAL SOURCES:
+  lottie-ios:
+    :path: "../node_modules/lottie-ios"
+  lottie-react-native:
+    :path: "../node_modules/lottie-react-native"
   React:
     :path: "../node_modules/react-native"
   react-native-heap-analytics:
@@ -49,6 +59,8 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Heap: 9ef15407ea1893c3af40a13bb4f4a450ec8af142
   Intercom: 9d00ee218448d93abfce2eafe95c854d7c1f94a3
+  lottie-ios: 255a0e95973a5c4424e809d7a5c19f7384c73e84
+  lottie-react-native: ed02827c79d65cbc33a6bb03f222bef0770214b3
   React: f705239a901cb3f95445c34468e5b37b6f80a0d4
   react-native-heap-analytics: 04602941eb63776dddebb99507296ed814086ea3
   react-native-intercom: bb6bc4782b791b2a62ad33fda19a8b3394817ce4
@@ -57,6 +69,6 @@ SPEC CHECKSUMS:
   UXCam: 24fc9a228f2c749a7d56a97db205394af92e6a6b
   Yoga: 13a12502dfabb4c75b914071dcb542af800deed4
 
-PODFILE CHECKSUM: 76d0ba66787e645ac4a79145c07735744b9c20cb
+PODFILE CHECKSUM: 2231c3ce5ad36ecdb725f1aef49240688d7da81a
 
 COCOAPODS: 1.2.1
