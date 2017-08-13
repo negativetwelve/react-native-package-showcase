@@ -32,7 +32,7 @@
   "homepage": "https://github.com/negativetwelve/react-native-package-showcase",
   "engines": {},
   "dependencies": {
-    "lottie-react-native": "^1.2.0",
+    "lottie-react-native": "airbnb/lottie-react-native#e823440",
     "react": "16.0.0-alpha.12",
     "react-native": "0.47.1",
     "react-native-code-push": "^5.0.0-beta",
