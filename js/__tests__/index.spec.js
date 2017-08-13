@@ -4,7 +4,7 @@ import React from 'react';
 import Renderer from 'react-test-renderer';
 
 // Components
-import Index from '../index.ios.js';
+import Index from '../../index';
 
 
 it('renders correctly', () => {
