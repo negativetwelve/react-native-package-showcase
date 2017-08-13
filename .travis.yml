@@ -16,9 +16,6 @@ matrix:
           - $HOME/.android/build-cache
       android:
         components:
-          - tools
-          - platform-tools
-          - tools
           - build-tools-23.0.0
           - build-tools-23.0.1
           - build-tools-25.0.1
@@ -36,7 +33,7 @@ matrix:
         - cd android
         - bundle install
       script:
-        - bundle exec fastlane build
+        - bundle exec fastlane test
     - language: objective-c
       os: osx
       osx_image: xcode8.3
@@ -54,7 +51,5 @@ matrix:
         - yarn
         - cd ios
         - bundle install
-        - bundle exec pod repo update
-        - bundle exec pod install
       script:
-        - bundle exec fastlane build
+        - bundle exec fastlane test

@@ -6,14 +6,15 @@ scheme = "RNShowcase"
 workspace = "#{scheme}.xcworkspace"
 
 platform :ios do
-  desc "Builds the app"
-  lane :build do
-    gym(
-      workspace: workspace,
-      scheme: scheme,
+  desc "Tests the app"
+  lane :test do
+    cocoapods(repo_update: true)
+    scan(
       clean: true,
-      silent: true,
-      export_method: "ad-hoc",
+      configuration: "Release",
+      devices: ["iPhone 6s"],
+      scheme: scheme,
+      workspace: workspace,
     )
   end
 end
