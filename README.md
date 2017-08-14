@@ -17,6 +17,7 @@ It also serves as a catalog for all react-native pacakges in the community.
 
 * [lottie-react-native](https://github.com/airbnb/lottie-react-native)
 * [react-native-code-push](https://github.com/Microsoft/react-native-code-push)
+* [react-native-device-info](https://github.com/rebeccahughes/react-native-device-info)
 * [react-native-heap-analytics](https://github.com/negativetwelve/react-native-heap-analytics)
 * [react-native-intercom](https://github.com/tinycreative/react-native-intercom)
 * [react-native-shake-event](https://github.com/jadsonlourenco/react-native-shake-event)
