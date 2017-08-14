@@ -4101,13 +4101,32 @@ react-native-device-info@^0.11.0:
   version "0.11.0"
   resolved "https://registry.yarnpkg.com/react-native-device-info/-/react-native-device-info-0.11.0.tgz#e96dd0e3f8a7d7e3022c1f441f51fa912fdc7444"
 
-react-native-heap-analytics@^1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/react-native-heap-analytics/-/react-native-heap-analytics-1.3.0.tgz#4082980701b30010d6533940f963605d51f1de89"
+react-native-heap-analytics@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/react-native-heap-analytics/-/react-native-heap-analytics-2.0.0.tgz#13edc1f1583d2d2f0dafb74f58fa991c07af5fae"
+  dependencies:
+    react-native-package "^1.1.0"
 
 react-native-intercom@^7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/react-native-intercom/-/react-native-intercom-7.0.0.tgz#7e90960e35492c14668ef12d94c47d46c5c5219c"
+
+react-native-module-check@^1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/react-native-module-check/-/react-native-module-check-1.6.0.tgz#595f9b09377db4ef1d7858e1f4ab3fe4a8787fea"
+
+react-native-module-guard@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/react-native-module-guard/-/react-native-module-guard-1.2.0.tgz#2869a61aa29ec6a72424b29a0db08fbd186ffa6a"
+  dependencies:
+    warning "^3.0.0"
+
+react-native-package@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/react-native-package/-/react-native-package-1.1.0.tgz#69a1958283ba20737b0bfc686aaf8c92826ec9f5"
+  dependencies:
+    react-native-module-check "^1.6.0"
+    react-native-module-guard "^1.2.0"
 
 react-native-safe-module@^1.1.0:
   version "1.2.0"
@@ -5259,6 +5278,12 @@ walker@~1.0.5:
   resolved "https://registry.yarnpkg.com/walker/-/walker-1.0.7.tgz#2f7f9b8fd10d677262b18a884e28d19618e028fb"
   dependencies:
     makeerror "1.0.x"
+
+warning@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/warning/-/warning-3.0.0.tgz#32e5377cb572de4ab04753bdf8821c01ed605b7c"
+  dependencies:
+    loose-envify "^1.0.0"
 
 watch@~0.10.0:
   version "0.10.0"
