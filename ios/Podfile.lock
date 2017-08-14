@@ -11,8 +11,7 @@ PODS:
     - Heap (= 4.0.0)
   - react-native-intercom (7.0.0):
     - Intercom (> 3)
-  - react-native-ux-cam (3.4.0):
-    - React
+  - react-native-ux-cam (3.5.0):
     - UXCam (~> 2.5.8)
   - react-native-video (1.1.0):
     - React
@@ -64,7 +63,7 @@ SPEC CHECKSUMS:
   React: f705239a901cb3f95445c34468e5b37b6f80a0d4
   react-native-heap-analytics: 04602941eb63776dddebb99507296ed814086ea3
   react-native-intercom: bb6bc4782b791b2a62ad33fda19a8b3394817ce4
-  react-native-ux-cam: a4954d67d56bc17c5fd827495b3c31331fd7fcc3
+  react-native-ux-cam: 9af9a4c81d17d2f5e07694eab6e0de47240df0fe
   react-native-video: 76a8ce72b4f93932eb9edb039b703d0ef71661f7
   UXCam: 24fc9a228f2c749a7d56a97db205394af92e6a6b
   Yoga: 13a12502dfabb4c75b914071dcb542af800deed4
