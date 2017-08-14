@@ -9,11 +9,10 @@ dependencies:
     - ~/.cache/yarn
   pre:
     - yarn global add greenkeeper-lockfile@1
-    - greenkeeper-lockfile-update
   override:
     - yarn
   post:
-    - greenkeeper-lockfile-upload
+    - greenkeeper-lockfile-update
 
 test:
   pre:
@@ -22,3 +21,4 @@ test:
     - yarn test:coverage
   post:
     - yarn coveralls
+    - greenkeeper-lockfile-upload
