@@ -1,14 +1,8 @@
 {
   "name": "react-native-package-showcase",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "description": "React Native example app showcasing many packages.",
   "main": "./js/index",
-  "files": [
-    "android",
-    "ios",
-    "js",
-    "index.js"
-  ],
   "keywords": [
     "android",
     "ios",
