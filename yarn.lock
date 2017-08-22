@@ -4122,9 +4122,9 @@ react-native-device-info@^0.11.0:
   version "0.11.0"
   resolved "https://registry.yarnpkg.com/react-native-device-info/-/react-native-device-info-0.11.0.tgz#e96dd0e3f8a7d7e3022c1f441f51fa912fdc7444"
 
-react-native-heap-analytics@^2.3.1:
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/react-native-heap-analytics/-/react-native-heap-analytics-2.3.1.tgz#8c5c52548d8f67c760eda10dd40a9a3f1c8238fb"
+react-native-heap-analytics@^2.3.2:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/react-native-heap-analytics/-/react-native-heap-analytics-2.3.2.tgz#59d262d2e970fd99ed2c0827717e0205075c3496"
   dependencies:
     react-native-package "^2.4.1"
 
@@ -4171,9 +4171,9 @@ react-native-svg@^5.4.1:
     color "^0.11.1"
     lodash "^4.16.6"
 
-react-native-ux-cam@^4.3.1:
-  version "4.3.1"
-  resolved "https://registry.yarnpkg.com/react-native-ux-cam/-/react-native-ux-cam-4.3.1.tgz#e8fc4cf58131137a44ecb8050447f2a6e56ae953"
+react-native-ux-cam@^4.3.2:
+  version "4.3.2"
+  resolved "https://registry.yarnpkg.com/react-native-ux-cam/-/react-native-ux-cam-4.3.2.tgz#077a92ce07bb96c8e5460ebbb8344417c162fa17"
   dependencies:
     react-native-package "^2.4.1"
 
