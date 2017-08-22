@@ -2,30 +2,17 @@
   "name": "react-native-package-showcase",
   "version": "1.3.3",
   "description": "React Native example app showcasing many packages.",
-  "main": "./js/index",
+  "license": "MIT",
+  "author": "Mark Miyashita <negativetwelve@gmail.com>",
+  "homepage": "https://github.com/negativetwelve/react-native-package-showcase",
+  "repository": "negativetwelve/react-native-package-showcase",
   "keywords": [
     "android",
     "ios",
     "jolt",
     "react-native"
   ],
-  "author": "Mark Miyashita <negativetwelve@gmail.com> (https://github.com/negativetwelve)",
-  "contributors": [
-    {
-      "name": "Mark Miyashita",
-      "email": "negativetwelve@gmail.com"
-    }
-  ],
-  "license": "MIT",
-  "repository": {
-    "url": "git+https://github.com/negativetwelve/react-native-package-showcase.git",
-    "type": "git"
-  },
-  "bugs": {
-    "url": "https://github.com/negativetwelve/react-native-package-showcase/issues"
-  },
-  "homepage": "https://github.com/negativetwelve/react-native-package-showcase",
-  "engines": {},
+  "main": "index",
   "dependencies": {
     "lottie-react-native": "airbnb/lottie-react-native#e823440",
     "react": "16.0.0-alpha.12",
@@ -48,11 +35,6 @@
     "jest-preset-jolt": "^1.0.1",
     "nyc": "^11.1.0",
     "react-test-renderer": "16.0.0-alpha.12"
-  },
-  "babel": {
-    "presets": [
-      "react-native"
-    ]
   },
   "eslintConfig": {
     "extends": "jolt"
