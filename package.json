@@ -36,11 +36,6 @@
     "nyc": "^11.1.0",
     "react-test-renderer": "16.0.0-alpha.12"
   },
-  "babel": {
-    "presets": [
-      "react-native"
-    ]
-  },
   "eslintConfig": {
     "extends": "jolt"
   },
