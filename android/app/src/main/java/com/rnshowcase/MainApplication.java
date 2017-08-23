@@ -3,6 +3,7 @@ package com.rnshowcase;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.rninstabugsdk.rninstabugsdk.InstabugSDKPackage;
 import com.learnium.RNDeviceInfo.RNDeviceInfo;
 import com.brentvatne.react.ReactVideoPackage;
 import com.rnuxcam.rnuxcam.UXCamPackage;
@@ -37,6 +38,7 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new InstabugSDKPackage(getApplicationContext()),
           new RNDeviceInfo(),
           new ReactVideoPackage(),
           new UXCamPackage(),

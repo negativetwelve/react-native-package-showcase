@@ -68,6 +68,7 @@ android {
 
 // These must be indented with 4 spaces for react-native link support.
 dependencies {
+    compile project(':react-native-instabug-sdk')
     compile project(':react-native-device-info')
     compile project(':lottie-react-native')
     compile project(':react-native-code-push')
