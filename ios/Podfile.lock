@@ -1,5 +1,6 @@
 PODS:
   - Heap (4.0.0)
+  - Instabug (5.3.2)
   - Intercom (3.2.11)
   - lottie-ios (1.5.2)
   - lottie-react-native (1.2.0):
@@ -7,11 +8,13 @@ PODS:
     - React
   - React (0.47.1):
     - React/Core (= 0.47.1)
-  - react-native-heap-analytics (1.3.0):
+  - react-native-heap-analytics (2.4.0):
     - Heap (= 4.0.0)
+  - react-native-instabug-sdk (4.3.0):
+    - Instabug
   - react-native-intercom (7.0.0):
     - Intercom (> 3)
-  - react-native-ux-cam (3.5.0):
+  - react-native-ux-cam (4.4.0):
     - UXCam (~> 2.5.8)
   - react-native-video (1.1.0):
     - React
@@ -27,9 +30,11 @@ PODS:
   - Yoga (0.47.1.React)
 
 DEPENDENCIES:
+  - Instabug (= 5.3.2)
   - lottie-ios (from `../node_modules/lottie-ios`)
   - lottie-react-native (from `../node_modules/lottie-react-native`)
   - react-native-heap-analytics (from `../node_modules/react-native-heap-analytics`)
+  - react-native-instabug-sdk (from `../node_modules/react-native-instabug-sdk`)
   - react-native-intercom (from `../node_modules/react-native-intercom`)
   - react-native-ux-cam (from `../node_modules/react-native-ux-cam`)
   - react-native-video (from `../node_modules/react-native-video`)
@@ -46,6 +51,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native"
   react-native-heap-analytics:
     :path: "../node_modules/react-native-heap-analytics"
+  react-native-instabug-sdk:
+    :path: "../node_modules/react-native-instabug-sdk"
   react-native-intercom:
     :path: "../node_modules/react-native-intercom"
   react-native-ux-cam:
@@ -57,17 +64,19 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Heap: 9ef15407ea1893c3af40a13bb4f4a450ec8af142
+  Instabug: 035bf24475ffac1bcb81f8c542774487bc72f528
   Intercom: 9d00ee218448d93abfce2eafe95c854d7c1f94a3
   lottie-ios: 255a0e95973a5c4424e809d7a5c19f7384c73e84
   lottie-react-native: ed02827c79d65cbc33a6bb03f222bef0770214b3
   React: f705239a901cb3f95445c34468e5b37b6f80a0d4
-  react-native-heap-analytics: 04602941eb63776dddebb99507296ed814086ea3
+  react-native-heap-analytics: 414d8dc6532df0adedb2167fd1e161c24ba475a1
+  react-native-instabug-sdk: ebb15fab71db387f5dc1b99ba83c96c08e36096f
   react-native-intercom: bb6bc4782b791b2a62ad33fda19a8b3394817ce4
-  react-native-ux-cam: 9af9a4c81d17d2f5e07694eab6e0de47240df0fe
+  react-native-ux-cam: 41101ca6c749096742748e37d617c2dd3cbcad06
   react-native-video: 76a8ce72b4f93932eb9edb039b703d0ef71661f7
   UXCam: 24fc9a228f2c749a7d56a97db205394af92e6a6b
   Yoga: 13a12502dfabb4c75b914071dcb542af800deed4
 
-PODFILE CHECKSUM: cf027ad19b3e6f97b58332bad83407607753df4e
+PODFILE CHECKSUM: 07ddcd40fde4ebfe23b12b235a363fee249bd334
 
 COCOAPODS: 1.2.1

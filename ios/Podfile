@@ -9,7 +9,11 @@ target "RNShowcase" do
   pod "lottie-ios", path: "../node_modules/lottie-ios"
   pod "lottie-react-native", path: "../node_modules/lottie-react-native"
   pod "react-native-heap-analytics", path: "../node_modules/react-native-heap-analytics"
+  pod "react-native-instabug-sdk", path: "../node_modules/react-native-instabug-sdk"
   pod "react-native-intercom", path: "../node_modules/react-native-intercom"
   pod "react-native-ux-cam", path: "../node_modules/react-native-ux-cam"
   pod "react-native-video", path: "../node_modules/react-native-video"
+
+  # TODO(mark): These should be linked from the specific podspec.
+  pod "Instabug", "5.3.2"
 end
