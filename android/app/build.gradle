@@ -28,6 +28,11 @@ android {
   compileSdkVersion 25
   buildToolsVersion "25.0.2"
 
+  dexOptions {
+    javaMaxHeapSize "4g"
+    jumboMode true
+  }
+
   defaultConfig {
     applicationId "com.markmiyashita.showcase"
     minSdkVersion 16
