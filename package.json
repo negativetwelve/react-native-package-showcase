@@ -20,6 +20,7 @@
     "react-native-code-push": "^5.0.0-beta",
     "react-native-device-info": "^0.11.0",
     "react-native-heap-analytics": "^2.4.0",
+    "react-native-instabug-sdk": "^4.3.0",
     "react-native-intercom": "^7.0.0",
     "react-native-shake-event": "^4.0.1",
     "react-native-svg": "^5.4.1",
@@ -32,7 +33,7 @@
     "coveralls": "^2.13.1",
     "eslint-config-jolt": "^1.0.2",
     "jest": "^20.0.4",
-    "jest-preset-jolt": "^1.0.1",
+    "jest-preset-jolt": "^2.0.0",
     "nyc": "^11.1.0",
     "react-test-renderer": "16.0.0-alpha.12"
   },
@@ -45,7 +46,7 @@
   "scripts": {
     "coveralls": "cat ./coverage/lcov.info | coveralls",
     "lint": "eslint js",
-    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "start": "./node_modules/react-native/scripts/launchPackager.command",
     "test": "jest",
     "test:coverage": "jest --coverage"
   }

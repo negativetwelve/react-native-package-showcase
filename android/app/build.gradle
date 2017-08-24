@@ -28,12 +28,18 @@ android {
   compileSdkVersion 25
   buildToolsVersion "25.0.2"
 
+  dexOptions {
+    javaMaxHeapSize "4g"
+    jumboMode true
+  }
+
   defaultConfig {
     applicationId "com.markmiyashita.showcase"
     minSdkVersion 16
     targetSdkVersion 22
     versionCode 1
     versionName "1.0"
+    multiDexEnabled true
     ndk {
       abiFilters "armeabi-v7a", "x86"
     }
@@ -68,6 +74,7 @@ android {
 
 // These must be indented with 4 spaces for react-native link support.
 dependencies {
+    compile project(':react-native-instabug-sdk')
     compile project(':react-native-device-info')
     compile project(':lottie-react-native')
     compile project(':react-native-code-push')
