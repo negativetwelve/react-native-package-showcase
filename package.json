@@ -32,7 +32,7 @@
     "babel-preset-react-native": "^3.0.1",
     "coveralls": "^2.13.1",
     "eslint-config-jolt": "^2.4.0",
-    "jest": "^20.0.4",
+    "jest": "^21.2.1",
     "jest-preset-jolt": "^2.0.0",
     "nyc": "^11.1.0",
     "react-test-renderer": "16.0.0-alpha.12"
