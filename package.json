@@ -28,7 +28,7 @@
     "react-native-video": "react-native-community/react-native-video#4ca5956"
   },
   "devDependencies": {
-    "babel-jest": "^20.0.3",
+    "babel-jest": "^22.2.2",
     "babel-preset-react-native": "^3.0.1",
     "coveralls": "^2.13.1",
     "eslint-config-jolt": "^2.4.0",
