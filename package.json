@@ -16,7 +16,7 @@
   "dependencies": {
     "lottie-react-native": "airbnb/lottie-react-native#e823440",
     "react": "16.0.0-alpha.12",
-    "react-native": "0.47.2",
+    "react-native": "0.56.0",
     "react-native-code-push": "^5.0.0-beta",
     "react-native-device-info": "^0.11.0",
     "react-native-heap-analytics": "^2.4.0",
@@ -25,7 +25,8 @@
     "react-native-shake-event": "^4.0.1",
     "react-native-svg": "^5.4.1",
     "react-native-ux-cam": "^4.4.0",
-    "react-native-video": "react-native-community/react-native-video#4ca5956"
+    "react-native-video": "react-native-community/react-native-video#4ca5956",
+    "snyk": "^1.88.2"
   },
   "devDependencies": {
     "babel-jest": "^20.0.3",
@@ -48,6 +49,9 @@
     "lint": "eslint js",
     "start": "./node_modules/react-native/scripts/launchPackager.command",
     "test": "jest",
-    "test:coverage": "jest --coverage"
-  }
+    "test:coverage": "jest --coverage",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
