@@ -4159,8 +4159,8 @@ react-native-code-push@^5.0.0-beta:
     xcode "0.9.2"
 
 react-native-device-info@^0.24.1:
-  version "0.24.1"
-  resolved "https://registry.yarnpkg.com/react-native-device-info/-/react-native-device-info-0.24.1.tgz#c9f6adce437f9d96fb3a1905d2d807801aed391b"
+  version "0.24.2"
+  resolved "https://registry.yarnpkg.com/react-native-device-info/-/react-native-device-info-0.24.2.tgz#e1319f3bc59161d9566025e640bcf82934569121"
 
 react-native-heap-analytics@^2.4.0:
   version "2.4.0"
