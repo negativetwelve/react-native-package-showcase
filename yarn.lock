@@ -1723,9 +1723,10 @@ escope@^3.6.0:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
-eslint-config-jolt@^1.0.2:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-jolt/-/eslint-config-jolt-1.3.0.tgz#718acda78761e6ec9dca55d76aa8171a384d8e03"
+eslint-config-jolt@^2.4.0:
+  version "2.8.9"
+  resolved "https://registry.yarnpkg.com/eslint-config-jolt/-/eslint-config-jolt-2.8.9.tgz#a218d3f22e129c0f5f7a2d09049d70738bf38b2f"
+  integrity sha1-ohjT8i4SnA9fei0JBJ1wc4vziy8=
   dependencies:
     babel-eslint "^7.0.0"
     eslint "^3.8.1"
@@ -4217,11 +4218,10 @@ react-native-svg@^5.4.1:
     color "^0.11.1"
     lodash "^4.16.6"
 
-react-native-ux-cam@^4.4.0:
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/react-native-ux-cam/-/react-native-ux-cam-4.4.0.tgz#9d78f8bd9e5814075b667c2db41d14836da98d84"
-  dependencies:
-    react-native-package "^2.5.0"
+react-native-ux-cam@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/react-native-ux-cam/-/react-native-ux-cam-5.0.0.tgz#e88f3a6b7b7c696a03fbc037402c29f90cf086fd"
+  integrity sha512-FwO5qPon0RTz1WZYQ5NnCf4a7E4JjTYylC4xfmATObU+rKZY0km0byAfq+7pgjfoYzTs/2VN5EzFErNwnV5mBQ==
 
 react-native-video@react-native-community/react-native-video#4ca5956:
   version "1.1.0"
