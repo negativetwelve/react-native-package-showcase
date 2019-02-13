@@ -1726,7 +1726,6 @@ escope@^3.6.0:
 eslint-config-jolt@^2.4.0:
   version "2.8.9"
   resolved "https://registry.yarnpkg.com/eslint-config-jolt/-/eslint-config-jolt-2.8.9.tgz#a218d3f22e129c0f5f7a2d09049d70738bf38b2f"
-  integrity sha1-ohjT8i4SnA9fei0JBJ1wc4vziy8=
   dependencies:
     babel-eslint "^7.0.0"
     eslint "^3.8.1"
@@ -4162,7 +4161,6 @@ react-native-code-push@^5.0.0-beta:
 react-native-device-info@^0.26.3:
   version "0.26.3"
   resolved "https://registry.yarnpkg.com/react-native-device-info/-/react-native-device-info-0.26.3.tgz#8dff9e64284ca274a8a574d5ae3bf4ed3f0a236d"
-  integrity sha512-lzdyeKf0brD3OLof0SDmzoJSJCOgjcU37gK5oPrCe/1kqYAAFDM0BYWnQ0JjS+8n91k/nOjwsLHIQ9oI/txIMQ==
 
 react-native-heap-analytics@^2.4.0:
   version "2.4.0"
