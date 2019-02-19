@@ -1726,7 +1726,6 @@ escope@^3.6.0:
 eslint-config-jolt@^2.4.0:
   version "2.8.9"
   resolved "https://registry.yarnpkg.com/eslint-config-jolt/-/eslint-config-jolt-2.8.9.tgz#a218d3f22e129c0f5f7a2d09049d70738bf38b2f"
-  integrity sha1-ohjT8i4SnA9fei0JBJ1wc4vziy8=
   dependencies:
     babel-eslint "^7.0.0"
     eslint "^3.8.1"
@@ -4178,7 +4177,6 @@ react-native-instabug-sdk@^4.3.0:
 react-native-intercom@^13.0.0:
   version "13.0.0"
   resolved "https://registry.yarnpkg.com/react-native-intercom/-/react-native-intercom-13.0.0.tgz#7e6f6a491231df9bb474f56fd6fd2820fccf54fd"
-  integrity sha512-KJEgesZzOox4SOf888eQxJ8u2oOb3Vh9dKFY+e2BFRsF1Z4g1I4gyEkIQMQp2A/h301qb59K9yHlbI0+JWGLWA==
 
 react-native-module-check@^2.5.0:
   version "2.5.0"
