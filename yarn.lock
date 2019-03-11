@@ -1712,7 +1712,6 @@ escope@^3.6.0:
 eslint-config-jolt@^2.4.0:
   version "2.8.9"
   resolved "https://registry.yarnpkg.com/eslint-config-jolt/-/eslint-config-jolt-2.8.9.tgz#a218d3f22e129c0f5f7a2d09049d70738bf38b2f"
-  integrity sha1-ohjT8i4SnA9fei0JBJ1wc4vziy8=
   dependencies:
     babel-eslint "^7.0.0"
     eslint "^3.8.1"
@@ -4200,7 +4199,6 @@ react-native-shake-event@^4.0.1:
 react-native-svg@^9.3.0:
   version "9.3.0"
   resolved "https://registry.yarnpkg.com/react-native-svg/-/react-native-svg-9.3.0.tgz#dd03e5d71460e7bc1f59e6edfe19b77c85fa0730"
-  integrity sha512-FdSduCzmSUeUwdQogwNceZeSy8X0HW/qv0zh5XcdTHGgAarjF1a9m5YEjU4nXg5bt9R/J1p6SSNKfjOkX1cSFQ==
 
 react-native-ux-cam@^4.4.0:
   version "4.4.0"
