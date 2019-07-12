@@ -30,7 +30,7 @@
   "devDependencies": {
     "babel-jest": "^20.0.3",
     "babel-preset-react-native": "^3.0.1",
-    "coveralls": "^2.13.1",
+    "coveralls": "^3.0.5",
     "eslint-config-jolt": "^2.4.0",
     "jest": "^20.0.4",
     "jest-preset-jolt": "^2.0.0",
