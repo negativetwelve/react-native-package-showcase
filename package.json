@@ -15,7 +15,7 @@
   "main": "index",
   "dependencies": {
     "lottie-react-native": "airbnb/lottie-react-native#e823440",
-    "react": "16.0.0-alpha.12",
+    "react": "16.11.0",
     "react-native": "0.47.2",
     "react-native-code-push": "^5.0.0-beta",
     "react-native-device-info": "^0.11.0",
