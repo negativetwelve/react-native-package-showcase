@@ -24,7 +24,7 @@
     "react-native-intercom": "^7.0.0",
     "react-native-shake-event": "^4.0.1",
     "react-native-svg": "^5.4.1",
-    "react-native-ux-cam": "^4.4.0",
+    "react-native-ux-cam": "^5.1.13",
     "react-native-video": "react-native-community/react-native-video#4ca5956"
   },
   "devDependencies": {
