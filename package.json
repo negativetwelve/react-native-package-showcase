@@ -21,7 +21,7 @@
     "react-native-device-info": "^0.11.0",
     "react-native-heap-analytics": "^2.4.0",
     "react-native-instabug-sdk": "^4.3.0",
-    "react-native-intercom": "^7.0.0",
+    "react-native-intercom": "^15.0.0",
     "react-native-shake-event": "^4.0.1",
     "react-native-svg": "^5.4.1",
     "react-native-ux-cam": "^4.4.0",
