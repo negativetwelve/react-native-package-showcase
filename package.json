@@ -34,7 +34,7 @@
     "eslint-config-jolt": "^2.4.0",
     "jest": "^20.0.4",
     "jest-preset-jolt": "^2.0.0",
-    "nyc": "^11.1.0",
+    "nyc": "^15.1.0",
     "react-test-renderer": "16.0.0-alpha.12"
   },
   "eslintConfig": {
