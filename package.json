@@ -15,7 +15,7 @@
   "main": "index",
   "dependencies": {
     "lottie-react-native": "airbnb/lottie-react-native#e823440",
-    "react": "16.0.0-alpha.12",
+    "react": "16.5.0",
     "react-native": "0.47.2",
     "react-native-code-push": "^5.0.0-beta",
     "react-native-device-info": "^0.11.0",
@@ -25,7 +25,7 @@
     "react-native-shake-event": "^4.0.1",
     "react-native-svg": "^5.4.1",
     "react-native-ux-cam": "^4.4.0",
-    "react-native-video": "react-native-community/react-native-video#4ca5956"
+    "react-native-video": "1.2.0"
   },
   "devDependencies": {
     "babel-jest": "^20.0.3",
